@@ -1,0 +1,55 @@
+.box {
+	background-color: #fdfffd;
+}
+
+.underline {
+	display: flex;
+	/**height: 1em;**/
+	justify-content: space-between;
+	padding-right: 2em;
+	align-items: center;
+}
+
+.design {
+	height: 1.5em;
+	opacity: 0;
+	transition-duration: .2s;
+}
+
+.underline:hover .design {
+	opacity: 1;
+}
+
+.design:nth-child(1) {
+	transform: scaleX(-1);
+}
+
+li {
+	font-weight: 100;
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+h2 {
+	background: linear-gradient(to right, #3e923a 0%, #d6ffae 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 4em;
+}
+
+body {
+	font-family: 'Lobster';
+}
+
+@font-face {
+	font-family: 'Lobster';
+	src: url('../../FONTS/LobsterTwo-Regular.otf') format("truetype");
+}
+
+@media only screen and (max-width: 1024px) {
+	.underline {
+		display: unset;
+	}
+}

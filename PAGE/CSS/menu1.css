@@ -1,0 +1,43 @@
+.box {
+	background-color: #fcdfdb;
+}
+
+.fa-music {
+	font-size: 3em;
+	background: linear-gradient(to right, #f15b61 0%, #f6916a 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.underline {
+	display: flex;
+	/**height: 1em;**/
+	justify-content: space-between;
+	padding-right: 2em;
+	align-items: center;
+}
+
+.design {
+	height: 0.3em;
+	opacity: 0;
+	transition-duration: .2s;
+}
+
+.underline:hover .design {
+	opacity: 1;
+}
+
+h1:nth-child(2) {
+	font-family: none;
+	color: black;
+}
+
+body {
+	color: #451b21;
+	font-family: 'KaushanScript';
+}
+
+@font-face {
+	font-family: 'KaushanScript';
+	src: url('../../FONTS/KaushanScript-Regular.otf') format("truetype");
+}

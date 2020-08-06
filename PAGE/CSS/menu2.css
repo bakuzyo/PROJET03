@@ -1,0 +1,71 @@
+.box {
+	background-color: #fff5fe;
+}
+
+.underline {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 2em;
+	align-items: center;
+}
+
+.heightpurple_design {
+	max-height: 1.1em;
+}
+
+.heightblue_design {
+	max-height: 1em;
+}
+
+.design {
+	height: 2em;
+	opacity: 0;
+	transition-duration: .2s;
+}
+
+.design:nth-child(1) {
+	transform: scaleX(-1);
+}
+
+.underline:hover .design {
+	opacity: 1;
+}
+
+/*h3 {
+	margin-top: 0.4em;
+}*/
+
+h2 {
+	background: linear-gradient(to right, #c77412 0%, #905cfe 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 3em;
+}
+
+ul:nth-child(2) {
+	color: #c77412;
+}
+
+ul:nth-child(3) {
+	color: #a56799;
+}
+
+ul:nth-child(4) {
+	color: #905cfe;
+}
+
+body {
+	font-family: 'rubik';
+}
+
+@font-face {
+	font-family: 'rubik';
+	src: url('../../FONTS/Rubik-Regular.ttf') format("truetype"),
+		url('../../FONTS/Rubik-Black.ttf') format("truetype");
+}
+
+@media only screen and (max-width: 1024px) {
+	.underline {
+		display: unset;
+	}
+}

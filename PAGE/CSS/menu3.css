@@ -1,0 +1,40 @@
+.box {
+	background-color: #f9f9f9;
+}
+
+.underline {
+	display: flex;
+	/**height: 1em;**/
+	justify-content: space-between;
+	padding-right: 2em;
+	align-items: center;
+}
+
+.design {
+	height: 0.45em;
+	opacity: 0;
+	transition-duration: .2s;
+}
+
+.underline:hover .design {
+	opacity: 1;
+}
+
+.design:nth-child(1) {
+	transform: scaleX(-1);
+}
+
+h1 {
+	font-style: normal;
+}
+
+h2 {
+	background: linear-gradient(to right, #042add 0%, #9dcefa 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 3em;
+}
+
+body {
+	font-style: italic;
+}
