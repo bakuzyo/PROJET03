@@ -53,3 +53,9 @@ body {
 		display: unset;
 	}
 }
+
+@media only screen and (max-width: 320px) {
+	.design {
+		height: 1em;
+	}
+}

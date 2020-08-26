@@ -135,7 +135,11 @@ nav {
 }
 
 img {
-	/*max-width: -webkit-fill-available;*/
+	max-width: -webkit-fill-available;
+	/*max-width: 25em;*/
+}
+
+.logo {
 	max-width: 25em;
 }
 
@@ -235,6 +239,9 @@ html, body {
 	}
 	.coming {
 		font-size: unset;
+	}
+	.logo {
+		max-width: -webkit-fill-available;
 	}
 }
 

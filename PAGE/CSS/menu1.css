@@ -41,3 +41,9 @@ body {
 	font-family: 'KaushanScript';
 	src: url('../../FONTS/KaushanScript-Regular.otf') format("truetype");
 }
+
+@media only screen and (max-width: 1024px) {
+	.underline {
+		display: unset;
+	}
+}
